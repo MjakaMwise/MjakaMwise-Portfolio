@@ -1,6 +1,6 @@
 import Image from "next/image";
 import myImg from "@/app/assets/Mash001.png"
-let LandingPage = () => {
+const LandingPage = () => {
   return(
     <main className="min-h-screen bg-[#fdf9f6] flex items-center justify-center px-6">
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
